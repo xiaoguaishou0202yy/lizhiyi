@@ -1,7 +1,7 @@
 /* Custom Styles for Portfolio */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #1c0032 !important;
+    background-color: #fff4f3 !important;
     margin: 0;
     padding: 0;
     color: #ffffff;
@@ -15,7 +15,7 @@ header {
     justify-content:space-between;
     text-align: center;
     padding: 10px 40px;
-    background-color:#c746c7;
+    background-color:#cfb8ff;
     z-index: 1000; /* Ensure the header stays on top of other elements */
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a subtle effect */
     align-items: center;
@@ -51,7 +51,7 @@ nav a {
 .intro {
     text-align: center;
     padding: 3rem 1rem;
-    color: #DDA0DD;
+    color: #be0bbe;
 }
 
 .intro h1 {
@@ -60,13 +60,13 @@ nav a {
 
 .intro h2 {
     font-size: 2rem;
-    color: #DDA0DD;
+    color: #be0bbe;
     margin-bottom: 1rem;
 }
 
 .portfolio h2 {
     font-size: 2rem;
-    color: #DDA0DD;
+    color: #be0bbe;
     margin-bottom: 1rem;
     margin-top: 8 rem;
     width:100%;
@@ -75,14 +75,14 @@ nav a {
 
 .intro p {
     font-size: 1.25rem;
-    color: #bfb8bd;
+    color: #797478;
     padding-top:10px;
     padding-bottom:20px;
 }
 
 .portfolio p {
     font-size: 1.25rem;
-    color: #bfb8bd;
+    color: #797478;
 }
 
 .content {
@@ -123,12 +123,12 @@ nav a {
     flex-wrap: wrap;
     justify-content: center;
     padding: 2rem;
-    background-color: #1c0032;
+    background-color: #f1dde2;
 }
 
 .subtitle1 {
     font-size: 1.6rem; /* Adjust the size as needed */
-    color: #d9a2d4;     /* Dark grey text */
+    color: #be0bbe;     /* Dark grey text */
     text-align: center; /* Center align the subtitle */
     margin-top: 1rem;
     margin-bottom: 1rem; /* Add spacing between the subtitle and the maps */
@@ -160,16 +160,19 @@ nav a {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #2F2F2F;
-    border: 1px solid #080808;
+    background: #797478;
+    border: 0px solid #080808;
     padding-top: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     height:auto;
+    border-radius: 20px;
 
     width: 100%; /* This ensures that each slide takes full width of the swiper container */
 
 }
+
+/* #2f2f2f */
   
 .swiper-slide img {
     width: 100%;
@@ -182,7 +185,7 @@ nav a {
 
 .swiper-slide p {
     font-size: 1.2rem; /* Adjust the size */
-    color: #c8c8c8; /* Adjust text color */
+    color: #f1dde2; /* Adjust text color */
     text-align: center; /* Center align the text */
     padding:2px;
 }
