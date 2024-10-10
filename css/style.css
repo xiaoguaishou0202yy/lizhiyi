@@ -30,52 +30,12 @@ header a {
 }
 
 /* Specific styling for the name link */
-/* .name a {
+.name a {
     font-weight: bold; /* Make the name bold if desired */
-    /* font-size: 25px; /* Adjust the size of the name */
-/*     color: rgb(255, 255, 255); /* Set the color to black */
-    /* text-decoration: none; /* Remove the underline */
+    font-size: 25px; /* Adjust the size of the name */
+    color: rgb(255, 255, 255); /* Set the color to black */
+    text-decoration: none; /* Remove the underline */
 
-/* }  */
-
-/* Navbar background and link styling */
-.navbar {
-    background-color: #6D4C9C; /* Rich Purple */
-    padding: 15px 20px;
-    border-radius: 10px; /* Adds rounded corners */
-}
-
-.navbar-brand {
-    font-size: 1.5rem;
-    color: #FFFFFF; /* White for the name in the navbar */
-    font-weight: bold;
-}
-
-.navbar-nav .nav-link {
-    font-size: 1.2rem;
-    color: #F7FAFC; /* Soft White for the links */
-    margin-left: 20px;
-    transition: color 0.3s ease;
-}
-
-/* Hover effect for the links */
-.navbar-nav .nav-link:hover {
-    color: #FF6F91; /* Pink on hover */
-}
-
-/* Navbar toggler button */
-.navbar-toggler {
-    border-color: #FFFFFF; /* White border for the toggle button */
-    background-color: #FF6F91; /* Soft pink for the toggle button background */
-}
-
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* White lines for the icon */
-}
-
-/* Ensure collapse menu is styled properly */
-.collapse {
-    justify-content: flex-end;
 }
 
 
@@ -220,7 +180,7 @@ nav a {
     height: 200px;
     object-fit:cover;
     display:block;
-    margin-bottom:20px;
+    margin-bottom:px;
     /* border-radius: 8px; */
 }
 
