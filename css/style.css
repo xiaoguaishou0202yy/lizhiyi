@@ -1,7 +1,7 @@
 /* Custom Styles for Portfolio */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f3dacb !important;
+    background-color: #f3e4cb !important;
     margin: 0;
     padding: 0;
     color: #ffffff;
@@ -20,7 +20,7 @@ header {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a subtle effect */
     align-items: center;
 }
-/* #FF69B4 #2F2F2F*/
+/* #FF69B4 #2F2F2F* #f3dacb/
 
 /* Apply the same font styling to all links in the header */
 header a {
@@ -66,7 +66,7 @@ nav a {
 
 .portfolio h2 {
     font-size: 2.5rem;
-    color: #9373b7;
+    color: #B39CD0;
     margin-bottom: 1rem;
     margin-top: 8 rem;
     width:100%;
@@ -82,7 +82,7 @@ nav a {
 
 .portfolio p {
     font-size: 1.25rem;
-    color: #797478;
+    color: #B0BEC5;
 }
 
 .content {
@@ -123,12 +123,12 @@ nav a {
     flex-wrap: wrap;
     justify-content: center;
     padding: 2rem;
-    background-color: #eeb6b6;
+    background-color: #44456e;
 }
 
 .subtitle1 {
-    font-size: 1.6rem; /* Adjust the size as needed */
-    color: #9373b7;     /* Dark grey text */
+    font-size: 2rem; /* Adjust the size as needed */
+    color: #B39CD0;     /* Dark grey text */
     text-align: center; /* Center align the subtitle */
     margin-top: 1rem;
     margin-bottom: 1rem; /* Add spacing between the subtitle and the maps */
@@ -160,10 +160,11 @@ nav a {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #797478;
+    background: #4A5568;
     border: 0px solid #080808;
     padding-top: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), /* Larger shadow */
+    0 4px 8px rgba(0, 0, 0, 0.1); /* Softer inner shadow */
     transition: transform 0.3s ease;
     height:auto;
     border-radius: 20px;
@@ -185,10 +186,12 @@ nav a {
 
 .swiper-slide p {
     font-size: 1.2rem; /* Adjust the size */
-    color: #f3dacb; /* Adjust text color */
+    color: #E2E8F0; /* Adjust text color */
     text-align: center; /* Center align the text */
     padding:2px;
 }
+
+/* #f3e4cb */
 
 .swiper-slide:hover {
     transform: translateY(-5px);
@@ -370,6 +373,14 @@ nav a {
     transition: transform 0.3s ease; /* Smooth zoom transitions */
 }
 
+
+/* Footer Styling */
+footer {
+    background-color:#9373b7;
+    color: rgb(219, 219, 219); /* Same text color as the header */
+    padding: 10px;
+    text-align: center;
+}
 
 
 @keyframes zoom {
