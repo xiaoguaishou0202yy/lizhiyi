@@ -28,6 +28,16 @@ function closeModal(modalId) {
     modal.style.display = 'none';
 }
 
+function toggleContactBox() {
+    const contactBox = document.getElementById("contact-box");
+    if (contactBox.style.display === "none") {
+      contactBox.style.display = "block";
+    } else {
+      contactBox.style.display = "none";
+    }
+}
+  
+
 // Apply zoom functionality to all elements with the 'zoomable' class
 document.querySelectorAll('.zoomable').forEach(function (img) {
     img.addEventListener('wheel', function (event) {

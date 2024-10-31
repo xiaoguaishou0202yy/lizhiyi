@@ -80,6 +80,17 @@ nav a {
     padding-bottom:20px;
 }
 
+#contact-box {
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 200px;
+    z-index: 1000;
+}
+
 .portfolio p {
     font-size: 1.25rem;
     color: #B0BEC5;
@@ -199,8 +210,8 @@ nav a {
 }
 
   
-  /* Style and position for both navigation buttons */
-  .swiper-button-next, .swiper-button-prev {
+/* Style and position for both navigation buttons */
+.swiper-button-next, .swiper-button-prev {
     position: absolute; /* Position the buttons absolutely relative to the swiper container */
     top: 50%; /* Vertically center the buttons */
     transform: translateY(-50%); /* Ensure they are fully centered vertically */
@@ -210,7 +221,7 @@ nav a {
     border-radius: 50%; /* Make buttons circular */
     z-index: 999; /* Ensure the buttons are above other elements */
     padding:10px;
-  }
+}
   
 
   /* First Swiper buttons */
